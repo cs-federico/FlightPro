@@ -1,3 +1,317 @@
 <resources>
-    <string name="app_name">FlightPro</string>
+
+    <!-- * Abstract: This file contains all the strings used in the application.
+         * @author: Federico Marquez Murrieta
+         * @since: 2023-11-29  -->
+
+    <!-- strings -->
+
+    <!-- Application name -->
+    <string name="application_name">FlightPro</string>
+
+    <!-- Welcome message on the app's main screen -->
+    <string name="welcome_heading">Welcome to FlightPro!</string>
+
+    <!-- Title for the user authentication page -->
+    <string name="authentication_page">User Authentication</string>
+
+    <!-- Label for username input field -->
+    <string name="prompt_username">Please Enter Username</string>
+
+    <!-- Label for password input field -->
+    <string name="prompt_password">Please Enter Password</string>
+
+    <!-- Button text for signing in -->
+    <string name="action_sign_in">Sign In</string>
+
+    <!-- Button text for new user registration -->
+    <string name="action_register">Register</string>
+
+    <!-- Placeholder text or example text -->
+    <string name="login_message">Sample Text</string>
+
+    <!-- Error message for invalid login credentials -->
+    <string name="error_invalid_credentials">Invalid Credentials: Check your Username or Password</string>
+
+    <!-- Success message for a successful login -->
+    <string name="success_login_message">SIGN IN SUCCESSFUL</string>
+
+    <!-- Invitation message for joining the app -->
+    <string name="invite_to_join">Join FlightPro Now!</string>
+
+    <!-- Prompt for re-entering the password -->
+    <string name="repeat_password">Enter Password Again</string>
+
+    <!-- Error message for mismatched passwords -->
+    <string name="error_password_mismatch">Type Password Correctly Twice</string>
+
+
+    <!-- Text for a return or back button -->
+    <string name="back">Return</string>
+
+
+    <!-- Label for admin role selection -->
+    <string name="admin">Admin</string>
+    <string name="role_choice_admin">Admin</string>
+    <string name="role_choice_user">User</string>
+
+
+    <!-- Error message for not selecting a role -->
+    <string name="error_role_not_selected">Select Admin or User</string>
+
+
+    <!-- Error message for username already taken -->
+    <string name="error_username_taken">Username is taken</string>
+
+
+    <!-- Label for the main dashboard page -->
+    <string name="main_page">Dashboard</string>
+
+
+    <!-- Option to reserve a flight -->
+    <string name="action_reserve_flight">Reserve Flight</string>
+
+
+    <!-- Label for admin menu -->
+    <string name="admin_menu">Admin Menu</string>
+
+
+    <!-- Title for the reservations section -->
+    <string name="title_reservations">Your Reservations</string>
+
+
+    <!-- Button text for signing out -->
+    <string name="action_log_out">Sign Out</string>
+
+
+    <!-- Banner text for admin actions page -->
+    <string name="admin_page_banner">Admin Actions Page</string>
+
+
+    <!-- Label for listing all flights -->
+    <string name="list_flights">List of Flights</string>
+
+
+    <!-- Options in the admin menu for managing flights -->
+    <string name="add_new_flight">Add Flight</string>
+    <string name="modify_flight">Edit Flight</string>
+
+
+    <!-- Prompt for entering a flight number -->
+    <string name="prompt_flight_number">Enter Flight Number</string>
+
+
+    <!-- Error message for invalid flight number -->
+    <string name="error_invalid_flight_number">Please Enter an Existing Flight Number</string>
+
+
+    <!-- Prompt for entering flight origin -->
+    <string name="prompt_flight_origin">Enter Flight Origin</string>
+
+
+    <!-- Title for the page to add a new flight -->
+    <string name="page_add_flight">Adding Flight Page</string>
+
+
+    <!-- Various error messages related to flight addition -->
+    <string name="error_duplicate_flight_number">Enter a unique flight number!</string>
+    <string name="error_missing_flight_number">Please enter a flight number!</string>
+    <string name="error_incorrect_flight_number_length">Flight Number of invalid Length</string>
+    <string name="error_missing_origin">Please enter a flight origin!</string>
+    <string name="error_missing_destination">Please enter a flight destination!</string>
+
+
+    <!-- Prompt for entering flight destination -->
+    <string name="prompt_flight_destination">Enter Flight Destination</string>
+
+
+    <!-- Title for the flight editing page -->
+    <string name="page_edit_flight">Editing Flight Page</string>
+
+
+    <!-- Option to remove a flight -->
+    <string name="action_remove_flight">Remove Flight</string>
+
+
+    <!-- Options for managing flight reservations -->
+    <string name="option_remove_flight_reservation">Remove Flight Reservation</string>
+    <string name="option_keep_flight_reservation">Keep Flight Reservation</string>
+
+
+    <!-- Title for the flight booking page -->
+    <string name="page_flight_booking">FlightPro Reservation Page</string>
+
+
+    <!-- Messages related to flight availability and booking -->
+    <string name="message_no_flights">0 Flights Available</string>
+    <string name="prompt_number_of_bookings">Desired Number of Reservations</string>
+
+
+    <!-- Error message when no booking quantity is entered -->
+    <string name="error_no_booking_quantity">Please Enter Number of Reservations!</string>
+
+
+    <!-- Error message when the booking quantity exceeds the flight's capacity -->
+    <string name="error_excess_booking_quantity">Booking Amount Does Not Fit Flight Capacity!</string>
+
+
+    <!-- Error message when an invalid booking quantity (like zero) is entered -->
+    <string name="error_invalid_booking_quantity">Please Enter an Amount More Than Zero!</string>
+
+
+    <!-- Button label for clearing input fields or selections -->
+    <string name="remove">Clear</string>
+
+
+    <!-- Prompt for user to enter a city name for flight searches -->
+    <string name="prompt_city">Please Enter City</string>
+
+
+    <!-- Button label for initiating flight search based on city -->
+    <string name="action_search_flights">Browse Flights</string>
+
+
+    <!-- Error message when no city is entered in the search field -->
+    <string name="error_no_city_entered">Please Enter a City!</string>
+
+
+    <!-- Error message when the entered city is currently not available for flights -->
+    <string name="error_city_not_available">City not Available at the Moment</string>
+
+
+    <!-- Label for the section displaying arriving flights -->
+    <string name="arrivals">Arrivals</string>
+
+
+    <!-- Label for the section displaying departing flights -->
+    <string name="departures">Departures</string>
+
+
+    <!-- Prompt for confirming the removal of a user account -->
+    <string name="confirm_user_removal">Would you like to remove this user?</string>
+
+
+    <!-- Call to action for non-registered users to join the application -->
+    <string name="invite_to_register">You can join today!</string>
+
+
+    <!-- Title for the notification channel dedicated to login alerts -->
+    <string name="channel_name">Login Notifications</string>
+
+
+    <!-- Description of the notification channel focused on user login activities -->
+    <string name="channel_description">Notifications for User Logins</string>
+
+
+    <!-- Highlighting the time-saving benefit of air travel -->
+    <string name="benefit_time_efficiency">Time Efficiency: Air travel is significantly faster than driving.</string>
+
+
+    <!-- Emphasizing the safety record of air travel -->
+    <string name="benefit_safety">Safety: Statistically, air travel is one of the safest modes of transportation.</string>
+
+
+    <!-- Pointing out the comfort and convenience of air travel -->
+    <string name="benefit_comfort">Comfort and Convenience: Airplanes, especially on longer flights.</string>
+
+
+    <!-- Mentioning the environmental benefits of modern, fuel-efficient airplanes -->
+    <string name="benefit_environmental_impact">Environmental Impact: Modern airplanes are increasingly fuel-efficient.</string>
+
+
+    <!-- Describing the ability of air travel to access remote locations -->
+    <string name="benefit_remote_access">Accessibility to Remote Locations: Air travel reaches places inaccessible by car.</string>
+
+
+    <!-- Discussing the global connectivity offered by air travel -->
+    <string name="benefit_global_connectivity">Global Connectivity: Airplanes connect continents and cultures.</string>
+
+
+    <!-- Highlighting how air travel reduces travel fatigue compared to other modes -->
+    <string name="benefit_travel_fatigue">Reduced Travel Fatigue: Flying minimizes exhaustion from long journeys.</string>
+
+
+    <!-- Describing the efficiency of air travel for business purposes -->
+    <string name="benefit_business_efficiency">Business Efficiency: Air travel facilitates quick and efficient business trips.</string>
+
+
+    <!-- Pointing out the crucial role of air travel in healthcare and emergency services -->
+    <string name="benefit_healthcare_services">Healthcare and Emergency Services: Essential for rapid medical aid and evacuations.</string>
+
+
+    <!-- Emphasizing the unique and scenic views available when flying -->
+    <string name="benefit_scenic_views">Scenic Views: Flying offers unique perspectives of the Earths landscapes.</string>
+
+
+    <!-- Title for the activity or section suggesting interesting places to visit -->
+    <string name="visit_places_title">Places to Consider Visiting</string>
+
+
+    <!-- Button or option inviting users to explore suggested places -->
+    <string name="visit_me">Visit Me</string>
+
+
+    <!-- Descriptive text listing various notable places around the world for users to consider visiting -->
+    <string name="visit_places_description">
+        Kyoto, Japan - Known for its classical Buddhist temples, as well as gardens, imperial palaces, Shinto shrines, and traditional wooden houses.\n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        Mayan Train Region, Yucatan, Mexico - This  new rail journey offers a unique way to explore the Mayan culture and landscapes of the Yucatan Peninsula.\n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        Glacier National Park, Bozeman, Montana, USA - Renowned for its stunning landscapes, the park boasts over 700 miles of trails winding through rugged mountain peaks, verdant forests, and serene alpine meadows. \n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        Honolulu - Oahu, Hawaii, USA - Oahu features a nice balance of urban and beach environments. And with pleasant weather year-round, there really is no wrong time to visit this Hawaiian paradise.\n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        Paris, France - The city of lights is always enchanting, with its historical architecture, renowned art museums, and romantic ambiance.\n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        Queenstown, New Zealand - A haven for adventure enthusiasts, known for its stunning natural beauty and thrilling activities like bungee jumping and skiing.\n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        Ibiza, Spain -  Ibiza boasts more than 100 miles of coastline with some 50 beaches, plus plenty of restaurants, bars, and water sports—and clubs, of course.\n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        Cape Town, South Africa - Offers a mix of dramatic landscapes, diverse cultures, and history, with landmarks like Table Mountain and Robben Island.\n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        Istanbul, Turkey - A city that bridges Asia and Europe, offering a rich tapestry of history, culture, and cuisine.\n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        Dubrovnik, Croatia - Known for its distinctive Old Town, encircled with massive stone walls, along with stunning views of the Adriatic Sea.
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+        \n\n
+    </string>
 </resources>
